@@ -1,6 +1,8 @@
 name: "Plugin CI/CD"
 
 on:
+  workflow_dispatch:
+
   release:
     types: [created]
 
